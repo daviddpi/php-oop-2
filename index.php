@@ -4,7 +4,7 @@ require_once __DIR__ . './data/carta.php';
 require_once __DIR__ . './data/prodotti.php';
 require_once __DIR__ . './data/utenti.php';
 
-$maglietta1 = new Magliette( "S", "Blu", "Maschile", "Machine corte", "Maglietta", "Boolean" , 50, 1);
+$maglietta1 = new Magliette( "S", "Blu", "Maschile", "Maniche corte", "Maglietta", "Boolean" , 50, 1);
 $maglietta2 = new Magliette("M", "Navy", "Femminile", "Maniche lunghe", "Maglietta", "Boolean", 50, 1);
 
 $acquisti = [$maglietta1,$maglietta2];
@@ -36,8 +36,6 @@ $spesaTotale = $spesa1 + $spesa2;
     <title>OOP 2 - Shop</title>
 </head>
 <body>
-<h1>Ciao</h1>
-
     <h1>Shopping</h1>
     <br>
     <h2>Nome utente: <?= $utente->getNome(); ?></h2>
