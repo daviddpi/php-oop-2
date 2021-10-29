@@ -80,7 +80,7 @@ class Prodotto{
 
 }
 
-class Magliette extends Prodotto{
+class Maglietta extends Prodotto{
     protected $taglia;
     protected $colore;
     protected $genere;

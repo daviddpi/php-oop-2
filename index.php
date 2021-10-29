@@ -4,8 +4,8 @@ require_once __DIR__ . './data/carta.php';
 require_once __DIR__ . './data/prodotti.php';
 require_once __DIR__ . './data/utenti.php';
 
-$maglietta1 = new Magliette( "S", "Blu", "Maschile", "Maniche corte", "Maglietta", "Boolean" , 50, 1);
-$maglietta2 = new Magliette("M", "Navy", "Femminile", "Maniche lunghe", "Maglietta", "Boolean", 50, 1);
+$maglietta1 = new Maglietta( "S", "Blu", "Maschile", "Maniche corte", "Maglietta", "Boolean" , 50, 1);
+$maglietta2 = new Maglietta("M", "Navy", "Femminile", "Maniche lunghe", "Maglietta", "Boolean", 50, 1);
 
 $acquisti = [$maglietta1,$maglietta2];
 
@@ -40,7 +40,7 @@ $spesaTotale = $spesa1 + $spesa2;
     <br>
     <h2>Nome utente: <?= $utente->getNome(); ?></h2>
     <h2>Email Utente: <?= $utente->getMail(); ?></h2>
-    <h2>Carta Utente: <?= $cartaDebito->getNomecarta() . " " . $cartaDebito->getDataScadenza(); ?>   </h2>
+    <h2>Carta Utente: <?= $cartaDebito->getNomecarta() . " " . $cartaDebito->getDataScadenza(); ?></h2>
 
     <hr>
 
