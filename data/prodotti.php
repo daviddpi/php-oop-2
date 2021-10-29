@@ -1,6 +1,6 @@
 <?php 
 
-class Prodotti{
+class Prodotto{
 
     protected $nome;
     protected $marca;
@@ -80,7 +80,7 @@ class Prodotti{
 
 }
 
-class Magliette extends Prodotti{
+class Magliette extends Prodotto{
     protected $taglia;
     protected $colore;
     protected $genere;
@@ -135,6 +135,10 @@ class Magliette extends Prodotti{
     public function setTipo($tipo){
         $this->tipo = $tipo;
     }
+
 }
+
+
+
 
 ?>
